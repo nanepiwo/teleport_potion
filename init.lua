@@ -9,6 +9,7 @@ teleport = {}
 -- Teleport Portal recipe
 minetest.register_craft({
 	output = 'teleport_potion:potion',
+	type = "shapeless",
 	recipe = {
 		{'vessels:glass_bottle', 'default:diamondblock', ''}
 	}
